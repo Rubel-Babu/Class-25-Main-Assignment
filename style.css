@@ -1,0 +1,120 @@
+/* Start Pricing Table CSS */
+.pricing-table{
+    background: #F6F9FC;
+}
+.pricing-content{}
+.pricing-content h5{
+    color: #86A5F1;
+    font-size: 16px;
+}
+.pricing-content h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+    position: relative;
+}
+.pricing-content h2::after {
+    content: "";
+    position: absolute;
+    top: 54px;
+    left: 290px;
+    width: 9%;
+    height: 3px;
+    background: rgba(0, 0, 255, 0.65);
+}
+.pricing-content p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ACACAB;
+    margin-top: 30px;
+}
+/* End Pricing Table CSS */
+
+/* Start About Section CSS */
+.pricing{
+    transition: all 0.5s;
+    border: 0;
+}
+.pricing:hover{
+    background: rgba(15, 19, 207, 0.74);
+    color: #fff;
+    cursor: pointer;
+}
+.pricing:hover li{
+    color: #fff;
+}
+.p-button{
+    border: none;
+}
+.pricing:hover .p-button{
+    background-color: #fff;
+    color: blue;
+    font-weight: bold;
+}
+.card-body{}
+.card-body ul{}
+.card-body ul li{
+    color: #ACACAB;
+    margin-bottom:10px ;
+}
+    
+
+/* End About Section CSS */
+
+/* Start Purchase section */
+.purchase{
+    background:linear-gradient(rgba(0, 68, 255, 0.450), rgba(0, 0, 255, 0.450)), url(./img/free-bg.jpg) no-repeat center;
+
+    background-size: cover;
+    background-position: top center;
+    padding: 300px 0;
+}
+.purchase h5{}
+.purchase h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.purchase h2::after {
+    content: "";
+    position: absolute;
+    left: 622px;
+    top: 107px;
+    width: 5%;
+    height: 2px;
+    background: #ddd;
+}
+.purchase p{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.purchase .p-button{
+    padding: 15px 40px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.p-button:hover{
+    background-color: #fff;
+    color: blue;
+    font-weight: bold;
+}
+
+/* End Purchase section */
+
+.newsletter{
+    background: #F8F9FA;
+}
+.news-left{
+    background: green;
+    padding: 50px;
+    color: #fff;
+}
+.news-left h2{}
+.news-left p{}
+.c-content{
+    font-size: 18px;
+    font-weight: 600;
+}
